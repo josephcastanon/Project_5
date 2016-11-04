@@ -29,6 +29,8 @@ var info = function(){
   var date = prompt("What is the date?");
   var doortime = prompt("What time do doors open?");
   var ticketlink = prompt("What's the link to purchase tickets?");
+  var imageURL = prompt("What image do you want for the background? Insert the URL.");
+
 
   // other prompts
   $('h1.bandname').text(bandname);
@@ -37,11 +39,11 @@ var info = function(){
   $('h1.date').text(date);
   $('h1.doortime').text('DOORS OPEN AT ' + doortime);
   $('h1.ticketlink').text('TICKETS AT ' + ticketlink);
+  $('body').css("background-image", "url(" + imageURL + ")");
   $("button").remove();
-
 }
 
-$(".button").click(function(){info()
+  $(".button").click(function(){info()
 });
 
 

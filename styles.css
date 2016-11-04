@@ -1,6 +1,8 @@
 body {
     background-color: #cccccc;
-    background-size: 1500px 1800px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
   }
 
 button {
@@ -37,7 +39,7 @@ h1.location {
   font-size: 60px;
   text-align: center;
   line-height: 700px;
-  opacity: 0.6;
+  opacity: 0.8;
 }
 
 h1.date {
@@ -45,7 +47,7 @@ h1.date {
   font-size: 70px;
   text-align: center;
   margin-top: -320px;
-  opacity: 0.6;
+  opacity: 0.8;
 }
 
 h1.doortime {
