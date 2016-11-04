@@ -1,0 +1,61 @@
+body {
+    background-color: #cccccc;
+    background-size: 1500px 1800px;
+  }
+
+button {
+  background-color: cadetblue;
+  height: 200px;
+  width: 400px;
+  text-align: center;
+  color: white;
+  font-family: 'Oswald', sans-serif;
+  font-size: 50px;
+}
+
+h1 {
+  text-transform: uppercase;
+  font-family: 'Oswald', sans-serif;
+  line-height: 10px;
+}
+
+h1.bandname {
+  color: #959595;
+  font-size: 110px;
+  text-align: center;
+}
+
+h1.tourname {
+  color: #FCACA4;
+  font-size: 40px;
+  text-align: center;
+  margin-top: -10px;
+}
+
+h1.location {
+  color: #A5CCDC;
+  font-size: 60px;
+  text-align: center;
+  line-height: 700px;
+  opacity: 0.6;
+}
+
+h1.date {
+  color: #B8A3C6;
+  font-size: 70px;
+  text-align: center;
+  margin-top: -320px;
+  opacity: 0.6;
+}
+
+h1.doortime {
+  color: #ECECEC;
+  font-size: 30px;
+  text-align: center;
+}
+
+h1.ticketlink {
+  color: #ECECEC;
+  font-size: 40px;
+  text-align: center;
+}
