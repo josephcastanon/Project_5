@@ -59,3 +59,7 @@ h1.ticketlink {
   font-size: 40px;
   text-align: center;
 }
+
+h1.bcolor {
+  opacity: 0.5;
+}

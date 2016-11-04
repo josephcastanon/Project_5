@@ -20,7 +20,7 @@ $("body").append("<h1 class='location'><h1>");
 $("body").append("<h1 class='date'><h1>");
 $("body").append("<h1 class='doortime'><h1>");
 $("body").append("<h1 class='ticketlink'><h1>");
-$("body").append("<h1 class='backgroundimage'><h1>");
+
 //other classes
 var info = function(){
   var bandname = prompt("What's the name of the band?");
@@ -29,7 +29,7 @@ var info = function(){
   var date = prompt("What is the date?");
   var doortime = prompt("What time do doors open?");
   var ticketlink = prompt("What's the link to purchase tickets?");
-  var backgroundimage = prompt("What's the URL for the background image?");
+
   // other prompts
   $('h1.bandname').text(bandname);
   $('h1.tourname').text(tourname);
@@ -37,8 +37,8 @@ var info = function(){
   $('h1.date').text(date);
   $('h1.doortime').text('DOORS OPEN AT ' + doortime);
   $('h1.ticketlink').text('TICKETS AT ' + ticketlink);
-  $('h1.backgroundimage').text(backgroundimage)
   $("button").remove();
+
 }
 
 $(".button").click(function(){info()
